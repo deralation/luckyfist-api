@@ -21,12 +21,14 @@ h4 {
     background-color: #fff;
     margin: 0 auto;
   }
+
   header, section {
     position: fixed;
     text-align: center;
     width: 560px;
     background-color: #fff;
   }
+  
   section {
     top: 50px;
   }
