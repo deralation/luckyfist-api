@@ -9,12 +9,18 @@ body{
     margin: 0 auto;
 }
 
-header section{
+header, section{
     position:fixed;
     text-align: center;
     width: 560px;
+    background-color: #fff;
+}
+
+section {
+    top: 50px;
 }
 
 .logo{
     width: 120px;
+    padding: 10px;
 }
