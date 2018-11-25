@@ -31,8 +31,15 @@ $(document).ready(function(){
             var thumb = item.snippet.thumbnails.medium.url;
             var title = item.snippet.title;
             var description = item.snippet.description;
+            var vid = item.snippet.resourceId.videoId;
 
-            $('main').append('<article><img src="'+thumb+'" alt="" class="thumb"><div class="details"><h4>'+title+'</h4><p>'+description+'</p></div></article>');
+            $('main').append('<article class="item" data-key="'+vid+'"><img src="'+thumb+'" alt="" class="thumb"><div class="details"><h4>'+title+'</h4><p>'+description+'</p></div></article>');
+
         });
     }
+
+    $('main').on('click','article', function(){
+        var id = $(this).attr('data-key');
+        mainVideo(id);
+    });
 });
