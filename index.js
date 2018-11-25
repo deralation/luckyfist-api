@@ -1,8 +1,10 @@
+var CONFIG = require('./config.json');
+
 $(document).ready(function(){
 
-    var key = "AIzaSyD4qscMMpv7RbBuZewCTVsmqkExnvmzbsQ";
-    var playlistId = "PLlVlyGVtvuVkBDG4LX-UFmjhUWX2d0qk2";
-    var URL = "https://www.googleapis.com/youtube/v3/playlistItems";
+    var key = CONFIG.key;
+    var playlistId = CONFIG.playlistId;
+    var URL = CONFIG.URL;
 
     var options = {
         part: 'snippet',
