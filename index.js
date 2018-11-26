@@ -1,7 +1,6 @@
-var CONFIG = require('./config.json');
-
 $(document).ready(function(){
-
+    var CONFIG = $.getJSON('config.json');
+    console.log(CONFIG); debugger;
     var key = CONFIG.key;
     var playlistId = CONFIG.playlistId;
     var URL = CONFIG.URL;
