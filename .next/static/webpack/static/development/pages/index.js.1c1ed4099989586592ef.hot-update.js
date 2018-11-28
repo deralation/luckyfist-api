@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
+webpackHotUpdate("static/development/pages/index.js",{
 
 /***/ "./api.js":
 /*!****************!*\
@@ -53,52 +53,6 @@ $(document).ready(function () {
 
 /***/ }),
 
-/***/ "./node_modules/react/index.js":
-/*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_ce91d52655bad4e4cbb5 ***!
-  \*******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_ce91d52655bad4e4cbb5 */ "dll-reference dll_ce91d52655bad4e4cbb5"))("./node_modules/react/index.js");
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/*!*******************************************!*\
-  !*** (webpack)/buildin/harmony-module.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if (!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -117,7 +71,6 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
 
 
- //import "../api.js";
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", {
@@ -127,7 +80,7 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _styles_index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.container,
+    className: container,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -142,26 +95,13 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/styles/yt_logo_rgb_light.png",
     alt: "",
-    className: _styles_index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.logo,
+    className: logo,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    id: "{css#video}",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  })));
+  }))));
 });
     (function (Component, route) {
       if(!Component) return
@@ -183,32 +123,7 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
-/***/ }),
-
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
-
-return { page: module.exports.default }});
-
-/***/ }),
-
-/***/ "dll-reference dll_ce91d52655bad4e4cbb5":
-/*!*******************************************!*\
-  !*** external "dll_ce91d52655bad4e4cbb5" ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = dll_ce91d52655bad4e4cbb5;
-
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=index.js.map
+})
+//# sourceMappingURL=index.js.1c1ed4099989586592ef.hot-update.js.map
