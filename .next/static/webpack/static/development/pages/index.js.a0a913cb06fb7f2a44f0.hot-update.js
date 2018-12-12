@@ -39,7 +39,7 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/styles/yt_logo_rgb_light.png",
+    src: "../styles/yt_logo_rgb_light.png",
     alt: "",
     className: _styles_index_scss__WEBPACK_IMPORTED_MODULE_1___default.a.logo,
     __source: {
@@ -51,13 +51,13 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
     id: "video",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 13
     },
     __self: this
   })));
@@ -85,4 +85,4 @@ var _jsxFileName = "/Users/gokhan/code/deralation/luckyfist-api/pages/index.js";
 /***/ })
 
 })
-//# sourceMappingURL=index.js.11f560b51efa0c742ad1.hot-update.js.map
+//# sourceMappingURL=index.js.a0a913cb06fb7f2a44f0.hot-update.js.map
