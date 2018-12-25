@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+
+  nba-video-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    ports:
+      - 9000:9000
+    volumes:
+      - ./backend:/usr/src/app:rw
+      - /usr/src/app/node_modules
+
+  nba-video-frontend:
+    depends_on: 
+      - nba-video-backend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    ports:
+      - 8000:8000
+    volumes:
+      - ./frontend:/usr/src/app:rw
+      - /usr/src/app/node_modules
